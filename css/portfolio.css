@@ -1,0 +1,438 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif, Cabin, 'Hammersmith One', sans-serif, 'PT Sans', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-page {
+}
+.portfolio-page ul {
+    list-style-type: none;
+}
+.portfolio-page {
+    width: 100%;
+}
+.portfolio-page ul li img {
+    width: 70%;
+    text-align: center;
+}
+.portfolio-page .figure .figcaption {
+    float: right;
+}
+.main_container {
+    margin: 0 auto;
+    padding: 0 0 0 10%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.description {
+    width: 83%;
+    margin-left: -20px;
+    font-family: Georgia, Times; Verdana; 
+    padding-top: 30px;
+}
+
+.description h2 {
+    width: 83%;
+    padding-top: 10px;
+    font-family:  'Source Sans Pro', 'Lora', 'Montserrat', Georgia, Times; Verdana; 
+    font-weight: 400;
+    color: #111;
+    font-variant: italic;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+.navbar-nav {
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+p span {
+    padding-top: 10px;
+    display: block;
+}
+
+p span #hyperlink {
+    display: inline-block; padding-top: 0px; border-bottom: 1px #ccc solid
+}
+
+p span #hyperlink:hover {
+    display: inline-block; padding-top: 0px; border-bottom: 1px #41b7d8 solid
+}
+
+p span a {
+    color: #41b7d8;
+}
+
+p span a:hover {
+    color: #41b7d8;
+    text-decoration: none;
+}
+
+.top-nav-collapse {
+  top: -51;
+}
+
+.navbar-nav li a:hover {
+  background-color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+{
+  background-color: #e7e7e7;
+  color: #222;
+}
+
+.navbar-nav a:hover {
+  background-color: #222;
+  color: white;
+}
+
+.navbar-nav a {
+  color: white;
+  transition: none;
+}
+
+
+.navbar {
+  margin: 0 auto;
+  width: 100%; 
+  padding: 0px;
+  margin: 0 auto; 
+  background: white;
+}
+
+.navbar {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: #f7f7f7;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #111;
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+
+.description h1 {
+    width: 83%;
+    margin-left: -10px;
+    font-family: 'Source Sans Pro', 'Bitter', 'Merriweather', 'Source Sans Pro', 'Lora', 'Montserrat', Georgia, Times; Verdana; 
+    font-weight: 700;
+    letter-spacing: -2px;
+    color: #111;
+    font-size: 70px;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+}
+
+.first-mainGallery {
+    padding-top: 40px;
+}
+
+.description {
+    width: 83%;
+    font-size: 20px;
+    margin-left: -10px;
+    color: #111;
+    line-height: 32px;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+}
+
+.description p {
+    font-size: 20px;
+    color: #222;
+    font-family: 'lora', Georgia, Times; Verdana; 
+    line-height: 32px;
+    padding-bottom: 30px;
+
+}
+
+.side-bar {
+    width: 20%;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    padding-left: 40px;
+}
+
+.side-bar h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+    font-size: 25px;
+    border-bottom: 1px solid #555;
+}
+
+.ender {
+    max-width: 1170px;
+}
+.mainGallery .container img {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+#padding-bottom-thirty {
+    padding-bottom: 30px;
+}
+
+.social-icons-portfolio {
+    padding-top: 12px;
+}
+
+.social-icons .btn {
+    margin-right: 20px;
+    padding-left: 20px; 
+}
+.left-padding {
+    padding-left: 10px;
+}
+.btn-round {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    padding: 0;
+}
+.btn-round i {
+    font-size: 18px;
+    top: 15px;
+    position: relative
+}
+.grey_area {
+    background-color: #eee;
+    height: 125px;
+    padding-bottom: 40px;
+}
+.ending-share {
+    padding-bottom: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-special a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #000;
+    border-width: 2px solid black;
+}
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 20px;
+}
+.nav .lastchild a {
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-right: -60px;
+}
+.nav li a:hover {
+    position: relative;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+}
+
+.center {
+    text-align: center;
+}
+.center p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    color: #666;
+}
+.center a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #222;
+}
+.center a:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+.ending-share .line-below {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-top: 1px solid #bbb;
+    margin-top: 20px;
+}
+.ending-share .line-above {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 1px solid #bbb;
+}
+.ending-share-sixty-five {
+    width: 230px;
+    margin: 0 240px 0 250px;
+}
+.width-sixty-five {
+    width: 75%;
+    padding: 40px;
+}
+#center p {
+    
+}
+.btn.btn-clear {
+    font-weight: 700;
+    -webkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.btn.btn-clear.selected, .btn.btn-clear:hover {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg)
+}
+.btn-twitter {
+    color: #2BA9E0;
+    border: 1px solid #2BA9E0;
+}
+.btn-facebook {
+    color: #204385;
+    border: 1px solid #204385;
+}
+.btn-google {
+    color: #D3492C;
+    border: 1px solid #D3492C;
+}
+.btn-twitter {
+    color: #2BA9E0;
+}
+.btn-twitter:hover {
+    background-color: #2BA9E0;
+    color: white;
+}
+.btn {
+    padding
+}
+.btn-facebook:hover {
+    background-color: #204385;
+    color: white;
+}
+.btn-google:hover {
+    background-color: #D3492C;
+    color: white;
+}
+.btn-behance {
+    color: #2255FF;
+    border: 1px solid #2255ff;
+}
+.btn-behance:hover {
+    background-color: #2255ff;
+    color: white;
+}
+
+.side-bar p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.container {
+    padding-right: 15px;
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1200px) {
+    .main_container {
+    }
+}
+.mainGallery img {
+    width: 65%;
+    float: left;
+}
+.mainGallery .image {
+    width: 65%;
+    float: left;
+}
+.main_container .mainGallery figcaption {
+    width: 35%;
+    float: right;
+}
+.main_container .mainGallery figure {
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+.main_container .mainGallery figcaption {
+    border-bottom: 1px solid #000000;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+.mainGallery .listTextPrice {
+    position: relative;
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+}
+@media screen and (max-width:640px) {
+    .main_container {
+        width: 100%;
+    }
+    .content_container {
+        padding: 5%;
+    }
+    .mainGallery figure, .mainGallery .image {
+        width: 100%;
+    }
+    .mainGallery .textbox {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main_container .mainGallery figcaption {
+    display: none;
+    }
+    .mainGallery img {
+    width: 85%;
+    float: left;
+    }
+}
+.descTop, .descBottom {
+    width: 70%;
+}
