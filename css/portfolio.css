@@ -51,6 +51,14 @@ html {
     font-variant: italic;
 }
 
+.left80 h2 {
+    padding-top: 10px;
+    font-family:  'Source Sans Pro', 'Lora', 'Montserrat', Georgia, Times; Verdana; 
+    font-weight: 400;
+    color: #111;
+    font-variant: italic;
+}
+
 h2 {
     margin: 0;
 }

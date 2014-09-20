@@ -32,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 20px;
 	text-transform: uppercase;
 	font-family: Lato, "Lato Black", "Lato Light";
 	font-weight: 700;
@@ -81,9 +80,42 @@ h1 {
 	letter-spacing: 5px;
 	text-align: center;
 	color: #555;
-	text-transform: uppercase;
+	text-transform: uppercase;s
+}
+
+.spacer {
+  height: 1px;
+  border-bottom: 1px #666 solid;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.update {
 
 }
+
+.update h2 {
+font-family: "Source Sans Pro", sans-serif;
+font-size: 32px;
+font-weight: 300;
+margin-left: 80px;
+float: left;
+text-transform: none;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+.update p {
+font-family: "Source Sans Pro", sans-serif;
+font-size: 30px;
+font-weight: 300italic;
+margin-right: 180px;
+float: right;
+text-transform: none;
+}
+
+
 
 a {
     color: #28c3ab;
@@ -180,17 +212,28 @@ a:focus {
 }
 
 .containerBlog {
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 .containerBlogLast {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 100px;
 }
-
+.marginfiftyten {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.margintenten {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .blogImage {
   height: 120px;
 }
+
+.blogContainer:hover {
+  background-color: black;
+}
+
 
 .blogContainer {
   margin-top: 30px;
@@ -201,6 +244,8 @@ a:focus {
 .blogTitle h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
+    margin: 0 0 20px;
+
   font-weight: 300;
   float: right;
   text-transform: none;
@@ -541,12 +586,6 @@ body {
   color: #2255FF;
 }
 
-.spacer {
-	width: 100px;
-	height: 2px;
-	margin: auto;
-	color: #000;
-}
 
 .page-header {
   border-bottom: 0;
