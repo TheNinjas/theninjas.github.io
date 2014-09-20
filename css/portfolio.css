@@ -17,6 +17,10 @@ html {
 .portfolio-page {
     width: 100%;
 }
+.descriptionh2 {
+    width: 100%;
+    line-height: 36px;
+}
 .portfolio-page ul li img {
     width: 70%;
     text-align: center;
@@ -54,6 +58,10 @@ h2 {
 h1 {
     margin-bottom: 0;
 }
+.left80 {
+    width: 70%;
+    display: inline-block;
+}
 .navbar-nav {
   margin: 0 auto;
   letter-spacing: 1px;
@@ -62,6 +70,7 @@ h1 {
 p span {
     padding-top: 10px;
     display: block;
+    width: 83%;
 }
 
 p span #hyperlink {
