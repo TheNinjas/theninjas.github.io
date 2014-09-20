@@ -17,6 +17,9 @@ html {
 .portfolio-page {
     width: 100%;
 }
+.quote h2 {
+    margin-left: 20px; padding-top: 0px
+}
 .descriptionh2 {
     width: 100%;
     line-height: 36px;
