@@ -47,7 +47,15 @@ h1 {
 }
 
 
+.footer a {
+  color: #eee;
+}
 
+.footer a:hover {
+  color: #eee;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #ddd;
+}
 
 
 @media(min-width:767px) {
@@ -119,9 +127,6 @@ text-transform: none;
 
 a {
     color: #28c3ab;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 
 a:hover,
@@ -1088,7 +1093,7 @@ transform: rotate(-180deg);
 
 .footer {
   height: 70px;
-  color: #fff;
+  color: #eee;
   display: block;
   vertical-align: middle;
   background-color: #222;
