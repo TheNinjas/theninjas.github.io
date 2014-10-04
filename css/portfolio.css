@@ -161,7 +161,7 @@ p span a:hover {
 .description h1 {
     width: 83%;
     margin-left: -10px;
-    font-family: 'Source Sans Pro', 'Bitter', 'Merriweather', 'Source Sans Pro', 'Lora', 'Montserrat', Georgia, Times; Verdana; 
+    font-family: 'Source Sans Pro', Verdana, sans-serif; 
     font-weight: 700;
     letter-spacing: -2px;
     color: #111;
@@ -193,7 +193,7 @@ p span a:hover {
 .description p {
     font-size: 20px;
     color: #222;
-    font-family: 'adelle', Georgia, Times; Verdana; 
+    font-family: 'Merriweather', Georgia, Times; Verdana; 
     line-height: 32px;
     padding-bottom: 30px;
 
